@@ -1,6 +1,6 @@
 import { create } from 'zustand'
 
-const API = '/api/v1'
+const API = 'https://out-of-stock-d1kw.onrender.com/api/v1'
 const TOKEN_KEY = 'ps_token'
 
 async function apiFetch(url, opts = {}) {

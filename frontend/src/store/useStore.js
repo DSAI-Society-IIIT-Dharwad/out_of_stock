@@ -1,7 +1,7 @@
 import { create } from 'zustand'
 import { authHeaders } from './useAuth'
 
-const API = '/api/v1'
+const API = 'https://out-of-stock-d1kw.onrender.com/api/v1'
 
 async function apiFetch(url) {
   const res = await fetch(url, { headers: authHeaders() })
