@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Syne:wght@700;800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-ink: #1A1917;
+  --color-ink2: #4A4845;
+  --color-ink3: #8A8780;
+  --color-bg: #F5F3EE;
+  --color-surface: #EDEAE2;
+  --color-alert: #D84A1B;
+  --color-info: #1B6BD8;
+  --color-up: #1A7A4A;
+  --color-warn: #C47A10;
+  --color-border: rgba(26,25,23,0.12);
+  --color-border2: rgba(26,25,23,0.06);
+
+  --font-display: 'Syne', sans-serif;
+  --font-mono: 'IBM Plex Mono', monospace;
+  --font-sans: 'IBM Plex Mono', monospace;
+
+  --radius-none: 0px;
+  --radius-sm: 2px;
+  --radius-DEFAULT: 0px;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  background: var(--color-bg);
+  color: var(--color-ink);
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 12px;
+  line-height: 1.7;
+}
+
+/* Recharts overrides */
+.recharts-cartesian-grid-horizontal line,
+.recharts-cartesian-grid-vertical line {
+  stroke: rgba(26,25,23,0.08);
+}
+.recharts-tooltip-wrapper { outline: none; }

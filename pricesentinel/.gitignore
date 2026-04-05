@@ -1,0 +1,37 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Database files
+*.db
+*.db-*
+*.turso.io
+
+# Environment files
+.env.local
+.env.production
+.env
+
+# Scrapy files
+*.log
+scrapy.log
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+.cfg
+.toml
+.lock
+Thumbs.db
